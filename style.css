@@ -169,10 +169,10 @@
 /*-- CONTAINER---*/
 
 .container {
-  min-height: 120vh;
+  min-height: 130vh;
   color: white;
   z-index: 2;
-  margin-bottom: -130px;
+  margin-bottom: -150px;
   background: #000000;
   background: linear-gradient(to right, #252525, #000000);
 }
@@ -261,16 +261,18 @@
   color: #141517;
   text-decoration: none;
 }
-.golden-container {
+.vegetable {
   width: 100%;
   background: rgb(190, 186, 176);
   color: black;
-  margin: 0;
+  margin: 30px 0;
   padding: 3rem;
   border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
   transform: skewY(-5deg);
+  z-index: -4;
 }
-.golden-container:before {
+.vegetable:before {
   content: "";
   width: 40px;
   height: 40px;
@@ -280,7 +282,7 @@
   right: 0;
   z-index: -2;
 }
-.golden-container:after {
+.vegetable:after {
   content: "";
   width: 80px;
   height: 80px;
@@ -291,6 +293,72 @@
   border-radius: 45px;
   z-index: -1;
 }
-.golden-container ul {
+.main-container {
   transform: skewY(5deg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  height: 90%;
+  width: 100%;
+  padding-top: 20px;
+}
+.main-container img {
+  width: 500px;
+}
+.main-content {
+  width: 100%;
+}
+.main-content h1 {
+  font-size: 2rem;
+  background-color: #577516;
+  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.main-content h2 {
+  font-size: 3rem;
+  background-color: #737966;
+  background-image: linear-gradient(to top, #243109 0%, #2f3d08 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.main-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #435808;
+  margin-bottom: 20px;
+}
+.Schedule-btn {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #141517;
+  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+}
+.Schedule-btn a {
+  color: #141517;
+  text-decoration: none;
+}
+
+.section {
+  padding: 50px;
+  background: black;
+  margin-top: -80px;
 }
