@@ -169,9 +169,12 @@
 /*-- CONTAINER---*/
 
 .container {
-  background-color: #151515;
-  min-height: 90vh;
+  min-height: 120vh;
   color: white;
+  z-index: 2;
+  margin-bottom: -130px;
+  background: #000000;
+  background: linear-gradient(to right, #252525, #000000);
 }
 .contentContainer {
   background: url("images/Banner.jpg");
@@ -199,4 +202,95 @@
   border: none;
   outline: none;
   border-radius: 15px;
+}
+
+.choice {
+  background: #000000;
+  background: linear-gradient(to right, #252525, #000000);
+  padding: 30px 0 70px;
+}
+.choisecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 20px;
+}
+.choice-heading {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.choice-heading span {
+  background-color: #6a9113;
+  background-image: linear-gradient(to top, #6a9113 0%, #cacebf 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.choice-description {
+  font-size: 40px;
+  background-color: #acf313;
+  background-image: linear-gradient(to top, #a6ec0f 0%, #435808 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.explore-btn {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #141517;
+  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+}
+.explore-btn a {
+  color: #141517;
+  text-decoration: none;
+}
+.golden-container {
+  width: 100%;
+  background: rgb(190, 186, 176);
+  color: black;
+  margin: 0;
+  padding: 3rem;
+  border-top-left-radius: 80px;
+  transform: skewY(-5deg);
+}
+.golden-container:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: rgb(190, 186, 176);
+  position: absolute;
+  top: -39px;
+  right: 0;
+  z-index: -2;
+}
+.golden-container:after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #000000;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  border-radius: 45px;
+  z-index: -1;
+}
+.golden-container ul {
+  transform: skewY(5deg);
 }
