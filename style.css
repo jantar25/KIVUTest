@@ -306,6 +306,9 @@
     z-index: 3;
   }
 }
+
+/*---ABOUT---*/
+
 .vegetable {
   width: 100%;
   background: rgb(190, 186, 176);
@@ -314,6 +317,7 @@
   padding: 3rem;
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
   transform: skewY(-5deg);
   z-index: -4;
 }
@@ -484,8 +488,107 @@
   }
 }
 
-.section {
-  padding: 50px;
+/*---SERVICES---*/
+.Specialities {
   background: black;
-  margin-top: -80px;
+  margin-top: -170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Service {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Service h1 {
+  font-size: 3rem;
+  background-color: #577516;
+  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 20px 10px;
+}
+.Services-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+  overflow: hidden;
+}
+.Services-card {
+  margin: 10px 10px 30px;
+  height: 425px;
+  width: 300px;
+  border: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.Services-card:hover Img {
+  transform: scale(1.2);
+  margin: 0 10px;
+  opacity: 0.5;
+}
+.Services-card:hover h2,
+.Services-card:hover .Purchase-btn,
+.Services-card:hover p {
+  opacity: 1;
+}
+.Services-card img {
+  width: 300px;
+  height: 425px;
+  object-fit: cover;
+  transition: all 0.5s ease-out;
+}
+.Services-card h2 {
+  color: #d5eba7;
+  padding: 0 10px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 5px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.Services-card p {
+  padding: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 45%;
+  left: 10px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  color: lightgrey;
+}
+.Purchase-btn {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #141517;
+  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  position: absolute;
+  bottom: 10%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.Purchase-btn a {
+  color: #141517;
+  text-decoration: none;
 }
