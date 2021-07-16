@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "roboto", sans-serif;
+  scroll-behavior: smooth;
+  scroll-margin-top: 70px;
 }
 
 .navbar {
@@ -353,6 +355,7 @@
   width: 100%;
   padding-top: 20px;
 }
+
 .main-container img {
   width: 500px;
   height: 420px;
@@ -889,4 +892,8 @@
     padding: 10px;
     width: 100%;
   }
+}
+
+.highlight {
+  background: #555f3e;
 }

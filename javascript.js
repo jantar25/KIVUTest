@@ -12,7 +12,7 @@ menu.addEventListener("click", mobileMenu);
 //Hiding Mobile Menu
 const hideMobMenu = () => {
   const menuBars = document.querySelector(".is-active");
-  if (window.innerWidth <= 768 && menuBars) {
+  if (window.innerWidth <= 900 && menuBars) {
     menu.classList.toggle("is-active");
     menuLists.classList.remove("active");
   }
@@ -28,13 +28,12 @@ const highlightMenu = () => {
   const aboutMenu = document.querySelector("#About-page");
   const specialitiesMenu = document.querySelector("#Specialities-page");
   let scrollPosition = window.scrollY;
-  console.log(scrollPosition);
 
   if (window.innerWidth > 960 && scrollPosition < 600) {
     homeMenu.classList.add("highlight");
     aboutMenu.classList.remove("highlight");
     return;
-  } else if (window.innerWidth > 960 && scrollPosition < 1400) {
+  } else if (window.innerWidth > 960 && scrollPosition < 1334) {
     aboutMenu.classList.add("highlight");
     homeMenu.classList.remove("highlight");
     specialitiesMenu.classList.remove("highlight");
