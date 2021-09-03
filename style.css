@@ -29,8 +29,8 @@
   padding: 0 50px;
 }
 #navbar-logo {
-  background-color: #6a9113;
-  background-image: linear-gradient(to top, #6a9113 0%, #cacebf 100%);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -51,7 +51,7 @@
   height: 40px;
 }
 .navbar-links {
-  color: #6a9113;
+  color: #861657;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,15 +78,17 @@
   border: none;
   outline: none;
   border-radius: 10px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  color: #141517;
+  color: #000;
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   transition: all 1s ease; /*wiigradient for better gadient color*/
 }
 .navbar-links:hover {
-  color: #d8f1a3;
+  color: #f082c2;
   transition: all 1s ease;
+}
+.highlight {
+  background: #ffbae2;
 }
 
 @media screen and (max-width: 900px) {
@@ -128,7 +130,8 @@
     height: 5px;
     margin: 5px auto;
     transition: all 0.5s ease-in-out;
-    background-image: linear-gradient(to top, #6a9113 0%, #cacebf 100%);
+    background-color: #f6f0c4;
+    background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
     display: block;
     cursor: pointer;
   }
@@ -172,42 +175,18 @@
 
 .container {
   min-height: 125vh;
-  color: white;
+  color: #ebc4e1;
   z-index: 2;
   margin-bottom: -170px;
   background: #000000;
   background: linear-gradient(to right, #1d1d1d, #000000);
 }
 .contentContainer {
-  background: url("images/Banner.jpg");
+  background: url("images/animations.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 60vh;
   padding: 0 50px;
-}
-
-.featuresTitle {
-  width: 200px;
-  padding: 50px 0;
-}
-.featuresDescrition {
-  width: 50%;
-  color: whitesmoke;
-  font-size: 15px;
-}
-.featuresBtn {
-  width: 150px;
-  padding: 10px;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
 }
 
 .choice {
@@ -231,8 +210,8 @@
   margin-bottom: 10px;
 }
 .choice-heading span {
-  background-color: #6a9113;
-  background-image: linear-gradient(to top, #6a9113 0%, #cacebf 100%);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -241,8 +220,8 @@
 }
 .choice-description {
   font-size: 40px;
-  background-color: #acf313;
-  background-image: linear-gradient(to top, #a6ec0f 0%, #435808 100%);
+  background-color: #6b0f1a;
+  background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -260,9 +239,8 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
 }
 .explore-btn a {
   color: #141517;
@@ -313,7 +291,7 @@
 
 .vegetable {
   width: 100%;
-  background: rgb(190, 186, 176);
+  background: #ebc4e1;
   color: black;
   margin: 30px 0;
   padding: 3rem;
@@ -327,7 +305,7 @@
   content: "";
   width: 40px;
   height: 40px;
-  background-color: rgb(190, 186, 176);
+  background-color: #ebc4e1;
   position: absolute;
   top: -39px;
   right: 0;
@@ -365,8 +343,8 @@
 }
 .main-content h1 {
   font-size: 2rem;
-  background-color: #577516;
-  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-color: #c01579;
+  background-image: linear-gradient(326deg, #df6daf 0%, #b86b64 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -376,8 +354,8 @@
 }
 .main-content h2 {
   font-size: 3rem;
-  background-color: #737966;
-  background-image: linear-gradient(to top, #243109 0%, #2f3d08 100%);
+  background-color: #4e0c33;
+  background-image: linear-gradient(326deg, #861657 0%, #eea099 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -388,7 +366,7 @@
 .main-content p {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #435808;
+  color: #000000;
   margin-bottom: 20px;
 }
 .Schedule-btn {
@@ -401,9 +379,8 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
 }
 .Schedule-btn a {
   color: #141517;
@@ -509,8 +486,8 @@
 }
 .Service h1 {
   font-size: 3rem;
-  background-color: #577516;
-  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-color: #ee5166;
+  background-image: linear-gradient(315deg, #ee5166 0%, #f08efc 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -552,7 +529,7 @@
   transition: all 0.5s ease-out;
 }
 .Services-card h2 {
-  color: #d5eba7;
+  color: #3b0285;
   padding: 0 10px;
   font-size: 40px;
   font-weight: bold;
@@ -582,9 +559,8 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   position: absolute;
   bottom: 10%;
   opacity: 0;
@@ -634,8 +610,8 @@
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  background-color: #577516;
-  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-color: #ee5166;
+  background-image: linear-gradient(315deg, #ee5166 0%, #f08efc 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -659,8 +635,8 @@
 }
 .feature-content h2 {
   font-size: 2rem;
-  background-color: #577516;
-  background-image: linear-gradient(to top, #29301a 0%, #c7e674 100%);
+  background-color: #f6d327;
+  background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -670,8 +646,8 @@
 }
 .feature-content h3 {
   font-size: 3rem;
-  background-color: #737966;
-  background-image: linear-gradient(to top, #243109 0%, #2f3d08 100%);
+  background-color: #ee5166;
+  background-image: linear-gradient(315deg, #ee5166 0%, #f08efc 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -682,7 +658,7 @@
 .feature-content p {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #435808;
+  color: #ebc4e1;
   margin-bottom: 20px;
 }
 .Sign-up-btn {
@@ -695,16 +671,15 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
-  background: #141517;
-  background: -webkit-linear-gradient(to right, #6a9113, #d5eba7, #151d03);
-  background: linear-gradient(to right, #6a9113, #d5eba7, #151d03);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
 }
 .Sign-up-btn a {
   color: #141517;
   text-decoration: none;
 }
 .feature-icon-container {
-  color: #435808;
+  color: #ebc4e1;
   font-size: 400px;
 }
 
@@ -795,8 +770,8 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  background-color: #6a9113;
-  background-image: linear-gradient(to top, #6a9113 0%, #cacebf 100%);
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -828,15 +803,15 @@
 .footer-items a {
   text-decoration: none;
   margin: 10px;
-  color: #6a9113;
+  color: #f079be;
   transition: all 0.5s ease;
 }
 .footer-items a:hover {
-  color: #bccc9a;
+  color: #fdc0e4;
   transition: all 0.5s ease-out;
 }
 .social-media-links {
-  color: #243109;
+  color: #7e094d;
   font-size: 24px;
 }
 .social-media {
@@ -861,7 +836,7 @@
   transition: all 0.5s ease-in-out;
 }
 .social-media-icons i:hover {
-  color: #b4f527;
+  color: #dd198b;
   transform: scale(1.3);
   transition: all 0.5s ease-in-out;
 }
@@ -892,8 +867,4 @@
     padding: 10px;
     width: 100%;
   }
-}
-
-.highlight {
-  background: #555f3e;
 }
